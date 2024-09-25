@@ -16,10 +16,13 @@ Key Features:
 
 6.MySQL Database for Development: Utilizes  with the flexibility to switch to production databases.
 
-This project demonstrates best practices in building secure, data-driven applications using Spring Boot.
+
 7. Spring Boot Profiling: Utilizes profile-specific configurations to manage different environments (e.g., development, testing, production) seamlessly.
+
 8. Advanced Logging: Implements structured logging using frameworks like SLF4J and Logback for better traceability and debugging.
+ 
 9. Spring Boot Actuators: Exposes production-ready features such as health checks, metrics, and environment information, enabling efficient application monitoring.
+
 10. Custom Actuator Endpoints: Provides custom endpoints to expose specific application metrics and health indicators tailored to business needs.
 11. Configurable Log Levels: Allows dynamic adjustment of logging levels for different components through application properties.
 This project demonstrates how to effectively manage application configurations and monitor performance using Spring Boot’s powerful features.
