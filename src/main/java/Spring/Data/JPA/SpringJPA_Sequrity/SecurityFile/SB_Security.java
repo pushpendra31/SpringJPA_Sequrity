@@ -61,7 +61,7 @@ public class SB_Security {
 	        return http.authorizeHttpRequests(request -> request
 	                        .requestMatchers("/**").permitAll()//not   working  with /home so just  /used 
 	                        .requestMatchers("/user/**", "/user/**").authenticated()
-
+	                        .requestMatchers("/actuator/**").authenticated()
 	                        .requestMatchers("/admin/**").hasRole("ADMIN")
 	                        .anyRequest().authenticated())
 	                .httpBasic(Customizer.withDefaults())
